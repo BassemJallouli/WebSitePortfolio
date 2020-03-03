@@ -2,10 +2,11 @@ header
 {
     text-align: center;
     color: white;
-    padding: 70px 70px;
+    padding: 90px 90px;
     margin: 0px;
     background-image: url('../IMG/b1.jpeg');
-    background-size: 105%;        /*cover the whole element*/
+    background-size: 120%;        /*cover the whole element*/
+    font-size: 10px;
     
 }
 body 
@@ -20,8 +21,7 @@ body
 nav {
   
     width: 100%;
-    height: 5%;
-     
+    height: 10%;
     background:rgba(0, 0, 0, 0.45);
     /* margin: 178px auto; */
     position: sticky;
@@ -38,7 +38,7 @@ nav ul {
     justify-content: center; /* cell in center of flex */
     padding: 0;
     margin: 0;
-    margin-top: -50px;
+    margin-top: -60px;
       }
     nav ul li {
       display: inline-block;
@@ -50,7 +50,7 @@ nav ul {
       display: inline-block;
       padding: 12px 32px; /* vertical horizantal*/
       color: white;
-      font-size: 22px;
+      font-size: 17px;
     }
     nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
       color:yellowgreen;
@@ -79,10 +79,10 @@ ul.par {
 }
 .social-icons ul li
 {
-  font-size: 27px;
-  height: 34px;
-  width: 34px;
-  border-radius: 7px;
+  font-size: 18px;
+  height: 22px;
+  width: 22px;
+  border-radius: 5px;
   list-style-type: none;
   padding-left: 12px;
   padding-top: 6px;
@@ -93,8 +93,8 @@ ul.par {
 .social-icons ul li:hover
 {
   padding-left: 30px;
-  width: 50px;
-  transition: 1s;
+  width: 30px;
+  transition: 2s;
 }
 
 /**************** skills bar ****************************/
@@ -124,8 +124,283 @@ ul.par {
 .main
 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 
 }
 
+
+/******************************* Tablet ************************************************/
+@media screen and ( min-width: 500px )
+{
+header
+{
+  text-align: center;
+  color: white;
+  padding: 70px 70px;
+  margin: 0px;
+  background-image: url('../IMG/b1.jpeg');
+  background-size: 105%;        /*cover the whole element*/
+      
+}
+  body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../IMG/b2.jpeg');
+  background-size: cover;        /*cover the whole element*/
+}
+
+nav {
+  
+  width: 100%;
+  height: 5%;
+   
+  background:rgba(0, 0, 0, 0.45);
+  /* margin: 178px auto; */
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+}
+nav ul {
+  
+  display: flex; /* navigation display with flex */
+  flex-direction: row; /* flex direction with row */
+  align-items: center; /* text in center */
+  justify-content: center; /* cell in center of flex */
+  padding: 0;
+  margin: 0;
+  margin-top: -50px;
+    }
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    
+    text-decoration: none; /* Disable the underline */
+    display: inline-block;
+    padding: 12px 32px; /* vertical horizantal*/
+    color: white;
+    font-size: 22px;
+  }
+  nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
+    color:yellowgreen;
+  }
+
+.sum
+{
+padding: 15px;
+}
+ul.par {
+list-style-position: inside;
+line-height: 2;
+}
+/***************** Social Icons ************************/
+.social-icons
+{
+top: 2%;
+transform: translateY(5%);
+position: absolute;
+z-index: 1;
+width: 80px;
+}
+.social-icons ul
+{
+padding: 10px;
+}
+.social-icons ul li
+{
+font-size: 27px;
+height: 34px;
+width: 34px;
+border-radius: 7px;
+list-style-type: none;
+padding-left: 12px;
+padding-top: 6px;
+margin-top: 5px;
+color: #fff;
+background: #000;
+}
+.social-icons ul li:hover
+{
+padding-left: 30px;
+width: 50px;
+transition: 1s;
+}
+
+/**************** skills bar ****************************/
+
+.skills-bar p
+{
+margin-bottom: 6px;
+font-weight: 60;
+padding: 10px;
+}
+.progress
+{
+border-radius: 16px;
+margin-bottom: 10px;
+width: 200px;
+padding: 10px;
+}
+.progress-bar
+{
+border-radius: 16px;
+
+background: #000;
+color: #fff;
+text-align: center;
+
+}
+.main
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+}
+
+
+
+/******************************* Desktop ************************************************/
+@media screen and ( min-width: 500px )
+{
+header
+{
+  text-align: center;
+  color: white;
+  padding: 70px 70px;
+  margin: 0px;
+  background-image: url('../IMG/b1.jpeg');
+  background-size: 105%;        /*cover the whole element*/
+      
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../IMG/b2.jpeg');
+  background-size: cover;        /*cover the whole element*/
+}
+nav {
+  
+  width: 100%;
+  height: 5%;
+   
+  background:rgba(0, 0, 0, 0.45);
+  /* margin: 178px auto; */
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+}
+nav ul {
+  
+  display: flex; /* navigation display with flex */
+  flex-direction: row; /* flex direction with row */
+  align-items: center; /* text in center */
+  justify-content: center; /* cell in center of flex */
+  padding: 0;
+  margin: 0;
+  margin-top: -50px;
+    }
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    
+    text-decoration: none; /* Disable the underline */
+    display: inline-block;
+    padding: 12px 32px; /* vertical horizantal*/
+    color: white;
+    font-size: 22px;
+  }
+  nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
+    color:yellowgreen;
+  }
+
+.sum
+{
+padding: 15px;
+}
+ul.par {
+list-style-position: inside;
+line-height: 2;
+}
+/***************** Social Icons ************************/
+.social-icons
+{
+top: 2%;
+transform: translateY(5%);
+position: absolute;
+z-index: 1;
+width: 80px;
+}
+.social-icons ul
+{
+padding: 10px;
+}
+.social-icons ul li
+{
+font-size: 27px;
+height: 34px;
+width: 34px;
+border-radius: 7px;
+list-style-type: none;
+padding-left: 12px;
+padding-top: 6px;
+margin-top: 5px;
+color: #fff;
+background: #000;
+}
+.social-icons ul li:hover
+{
+padding-left: 30px;
+width: 50px;
+transition: 1s;
+}
+
+/**************** skills bar ****************************/
+
+.skills-bar p
+{
+margin-bottom: 6px;
+font-weight: 60;
+padding: 10px;
+}
+.progress
+{
+border-radius: 16px;
+margin-bottom: 10px;
+width: 200px;
+padding: 10px;
+}
+.progress-bar
+{
+border-radius: 16px;
+
+background: #000;
+color: #fff;
+text-align: center;
+
+}
+.main
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+
+}
