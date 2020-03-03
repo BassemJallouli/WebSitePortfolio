@@ -38,7 +38,7 @@ nav ul {
     justify-content: center; /* cell in center of flex */
     padding: 0;
     margin: 0;
-    margin-top: -60px;
+    margin-top: -50px;
       }
     nav ul li {
       display: inline-block;
@@ -67,19 +67,19 @@ ul.par {
 /***************** Social Icons ************************/
 .social-icons
 {
-  top: 2%;
+  top: 0%;
   transform: translateY(5%);
   position: absolute;
   z-index: 1;
-  width: 80px;
+  width: 50px;
 }
 .social-icons ul
 {
-  padding: 10px;
+  padding: 3px;
 }
 .social-icons ul li
 {
-  font-size: 18px;
+  font-size: 15px;
   height: 22px;
   width: 22px;
   border-radius: 5px;
