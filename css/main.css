@@ -25,7 +25,7 @@ nav {
     height: 10%;
     background:rgba(0, 0, 0, 0.45);
     margin: 10px;
-    position: sticky;
+    position: static;
     top: 0;
     right: 0;
     bottom: auto;
@@ -299,7 +299,7 @@ nav {
    
   background:rgba(0, 0, 0, 0.45);
   /* margin: 178px auto; */
-  position: sticky;
+  position: static;
   top: 0;
   right: 0;
   bottom: auto;
@@ -313,7 +313,7 @@ nav ul {
   justify-content: center; /* cell in center of flex */
   padding: 0;
   margin: 0;
-  margin-top: -50px;
+  margin-top: -74px;
     }
   nav ul li {
     display: inline-block;
@@ -323,7 +323,7 @@ nav ul {
     
     text-decoration: none; /* Disable the underline */
     display: inline-block;
-    padding: 12px 32px; /* vertical horizantal*/
+    padding: 1px 32px; /* vertical horizantal*/
     color: white;
     font-size: 22px;
   }
