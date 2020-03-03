@@ -175,7 +175,7 @@ nav ul {
   justify-content: center; /* cell in center of flex */
   padding: 0;
   margin: 0;
-  margin-top: -50px;
+  margin-top: -60px;
     }
   nav ul li {
     display: inline-block;
@@ -297,7 +297,7 @@ nav {
   width: 110%;
   height: 5%;
    
-  background:rgba(0, 0, 0, 0.45);
+  background:rgba(0, 0, 0, 0.55);
   margin: 0px;
   position: static;
   top: 0;
