@@ -63,6 +63,7 @@ padding: 15px;
 ul.par {
   list-style-position: inside;
   line-height: 2;
+  font-size: 12px;
 }
 /***************** Social Icons ************************/
 .social-icons
@@ -84,7 +85,7 @@ ul.par {
   width: 22px;
   border-radius: 5px;
   list-style-type: none;
-  padding-left: 12px;
+  padding-left: 6px;
   padding-top: 6px;
   margin-top: 5px;
   color: #000;
