@@ -33,12 +33,12 @@ nav {
 nav ul {
     
     display: flex; /* navigation display with flex */
-    flex-direction: row; /* flex direction with row */
+    flex-direction: column; /* flex direction with row */
     align-items: center; /* text in center */
     justify-content: center; /* cell in center of flex */
     padding: 0;
     margin: 0;
-    margin-top: -50px;
+    margin-top: -100px;
       }
     nav ul li {
       display: inline-block;
@@ -50,7 +50,7 @@ nav ul {
       display: inline-block;
       padding: 12px 32px; /* vertical horizantal*/
       color: white;
-      font-size: 17px;
+      font-size: 12px;
     }
     nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
       color:yellowgreen;
@@ -87,8 +87,8 @@ ul.par {
   padding-left: 12px;
   padding-top: 6px;
   margin-top: 5px;
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: rgb(255, 255, 255);s
 }
 .social-icons ul li:hover
 {
