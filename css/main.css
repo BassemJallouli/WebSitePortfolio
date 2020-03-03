@@ -96,16 +96,21 @@ ul.par {
   width: 50px;
   transition: 1s;
 }
+
+/**************** skills bar ****************************/
+
 .skills-bar p
 {
   margin-bottom: 6px;
   font-weight: 60;
+  padding: 10px;
 }
 .progress
 {
   border-radius: 16px;
   margin-bottom: 10px;
   width: 200px;
+  padding: 10px;
 }
 .progress-bar
 {
@@ -114,25 +119,13 @@ ul.par {
   background: #000;
   color: #fff;
   text-align: center;
+  
 }
-/**
-body 
-    {
-      display: grid; 
-      grid-template-columns: 20% 60% 20%;
-      grid-template-rows: 100vh; 
-      grid-template-areas:
-            
-      "Social Home Skills"
-           
+.main
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-
-    }
-.Social { grid-area: Social; }
-.Home { grid-area: Home; }
-.Skills { 
-            grid-area: Skills; 
-                        
-            } 
-**/
+}
 
