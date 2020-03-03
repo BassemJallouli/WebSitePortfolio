@@ -96,6 +96,25 @@ ul.par {
   width: 50px;
   transition: 1s;
 }
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 60;
+}
+.progress
+{
+  border-radius: 16px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+.progress-bar
+{
+  border-radius: 16px;
+  
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
 /**
 body 
     {
